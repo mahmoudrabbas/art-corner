@@ -1,0 +1,56 @@
+.container2 {
+    min-width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease;
+}
+.my-form {
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 2px 1spx 2px 0px #eee;
+}
+.my-form h3 {
+    color:red;
+}
+
+label {
+    font-size: 0.8em;
+    color: black;
+    font-weight: 500;
+}
+button[type="submit"],button[type="submit"]:hover {
+    background-color: red;
+    color: white;
+}
+
+.form-control {
+    width: 22em;
+    padding: 7px;
+}
+.btn-q a{
+    text-decoration: none;
+}
+
+
+.my-login-form {
+    padding: 20px 80px;
+}
+.fa-google-plus {
+    color: #db4a39;
+    font-size: 2em;
+    cursor: pointer;
+    padding-top:10px;
+}
+.fa-facebook {
+    color: #0088dd;
+    font-size: 2em;
+    cursor: pointer;
+}
+.fa-twitter {
+    color: #15a5ff;
+    font-size: 2em;
+    cursor: pointer;
+}
